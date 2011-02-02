@@ -1,0 +1,7 @@
+This is an example of a service with the minimum required web
+interface. It's essentially a headless service with a very basic
+config.ru.
+
+Deploy with
+
+jruby -S rake torquebox:deploy:archive
